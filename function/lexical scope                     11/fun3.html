@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const myvar="value1";
+        function app(){
+            const myfun= ()=>{
+            const myfun2=()=>{
+                console.log("inside myfun",myvar);
+            }
+            myfun2();
+
+        }
+        console.log(myvar);
+        myfun();
+    }
+    app();
+
+    </script>
+</body>
+</html>
